@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="680" viewBox="0 0 1280 680" role="img" aria-labelledby="title description">
+  <title id="title">BarFold — keep what matters, fold the rest</title>
+  <desc id="description">Concept illustration, not a screenshot. Expanded icons occupy three zones. When folded, the always-visible icons remain beside BarFold and the rest are tucked away.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f8f2"/><stop offset="1" stop-color="#e7f2eb"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#53ac88"/><stop offset="1" stop-color="#225e50"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-50%" width="120%" height="200%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#194d3c" flood-opacity=".06"/></filter>
+    <g id="fold"><rect x="-22" y="-22" width="44" height="44" rx="13" fill="url(#brand)"/><g stroke="#fff" stroke-width="3.4" stroke-linecap="round"><path d="M-5-8h17M-12 0h24M-2 8h14"/></g></g>
+    <g id="cloud" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 6a6 6 0 0 1 0-12 9 9 0 0 1 17-2 7 7 0 0 1 3 14z"/></g>
+    <g id="disc" fill="none" stroke="currentColor" stroke-width="2.5"><circle r="12"/><circle r="4"/><path d="M0-12v4M12 0H8M0 12V8M-12 0h4"/></g>
+    <g id="sliders" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M-11-12v24M0-12v24M11-12v24"/><g fill="#fff"><circle cx="-11" cy="-4" r="3.5"/><circle cy="6" r="3.5"/><circle cx="11" cy="-6" r="3.5"/></g></g>
+    <g id="bolt" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="m3-14-13 17h9l-2 11L10-3H1z"/></g>
+    <g id="headphones" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 5v-5a12 12 0 0 1 24 0v5"/><rect x="-14" y="1" width="6" height="11" rx="2"/><rect x="8" y="1" width="6" height="11" rx="2"/></g>
+    <g id="sync" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-10-4a11 11 0 0 1 20-4M10 4A11 11 0 0 1-10 8M10-14v6H4M-10 14V8h6"/></g>
+    <g id="key" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="-6" cy="-3" r="7"/><path d="m-1 2 12 12M7 10l4-4"/></g>
+    <g id="wifi" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M-14-6a21 21 0 0 1 28 0M-9 0a14 14 0 0 1 18 0M-4 6a6 6 0 0 1 8 0"/><circle cy="12" r="1.8" fill="currentColor" stroke="none"/></g>
+    <g id="battery" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="-15" y="-8" width="28" height="16" rx="3"/><path d="M16-3v6"/><rect x="-11" y="-4" width="16" height="8" rx="1.2" fill="currentColor" stroke="none"/></g>
+    <g id="visible" color="#284d40"><use href="#headphones" x="826"/><use href="#key" x="890"/><use href="#wifi" x="954"/><use href="#battery" x="1018"/><text x="1070" y="7" fill="#284d40" font-size="22" font-weight="600" stroke="none">10:09</text></g>
+  </defs>
+  <rect width="1280" height="680" rx="28" fill="url(#canvas)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text x="76" y="69" fill="#39826a" font-size="19" font-weight="700" letter-spacing="3">BARFOLD / MENU BAR, SIMPLIFIED</text>
+    <text x="76" y="140" fill="#183f31" font-size="49" font-weight="700" letter-spacing="-1.2">Keep what matters. Fold the rest.</text>
+    <text x="76" y="182" fill="#517363" font-size="23">Three zones. Your favorite icons, always within reach.</text>
+
+    <rect x="76" y="236" width="1128" height="94" rx="19" fill="#fff" filter="url(#shadow)"/>
+    <rect x="93" y="249" width="233" height="68" rx="13" fill="#eff2f0"/>
+    <rect x="385" y="249" width="288" height="68" rx="13" fill="#e7f4ec"/>
+    <g transform="translate(0 283)">
+      <g color="#809488"><use href="#cloud" x="148"/><use href="#disc" x="210"/><use href="#sync" x="272"/></g>
+      <path d="M357-24v48" stroke="#8fa499" stroke-width="2.4" stroke-dasharray="3 5"/>
+      <g color="#43846b"><use href="#sliders" x="425"/><use href="#bolt" x="489"/><use href="#headphones" x="553"/><use href="#cloud" x="617"/></g>
+      <path d="M699-24v48" stroke="#428369" stroke-width="2.4"/>
+      <use href="#fold" x="750"/>
+      <use href="#visible"/>
+    </g>
+    <g font-size="20" font-weight="600" text-anchor="middle">
+      <text x="210" y="370" fill="#6b8475">Always hidden</text>
+      <text x="529" y="370" fill="#36795d">Show on demand</text>
+      <text x="980" y="370" fill="#28513e">Always visible</text>
+    </g>
+    <path d="M640 390v28m-7-7 7 7 7-7" fill="none" stroke="#90b29c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="76" y="442" width="1128" height="94" rx="19" fill="#fff" filter="url(#shadow)"/>
+    <text x="114" y="499" fill="#7b9c87" font-size="27" font-weight="500">Room to breathe.</text>
+    <g transform="translate(0 489)"><use href="#fold" x="750"/><use href="#visible"/></g>
+
+    <text x="76" y="604" fill="#39826a" font-size="20" font-weight="600">One click to fold</text>
+    <circle cx="279" cy="597" r="2.5" fill="#8ba894"/>
+    <text x="299" y="604" fill="#39826a" font-size="20" font-weight="600">Option-click to reveal all</text>
+    <text x="76" y="646" fill="#728f7d" font-size="15" letter-spacing="1.3">CONCEPT ILLUSTRATION · NOT AN APP SCREENSHOT</text>
+    <text x="1204" y="646" text-anchor="end" fill="#728f7d" font-size="15">NATIVE macOS · OPEN SOURCE</text>
+  </g>
+</svg>
