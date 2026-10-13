@@ -14,13 +14,14 @@ The local build environment used macOS 15.7.4 on Apple Silicon and Swift 6.1.2. 
 | App icon | **Passed** | All 10 ICNS representations decoded with ImageIO |
 | Build/test shell syntax | **Passed** | `bash -n build.sh test.sh` |
 | SwiftUI page structure | **Partial** | Offline text, hierarchy, spacing, light/dark palettes and minimum-size checks; native controls were unsupported by the offscreen renderer |
-| Live menu bar and native windows | **Blocked / pending** | Launch stopped at system application registration, before the app controller initialized; computer-use access was denied |
+| Normal manual launch | **Reported pass** | The project owner confirmed that the menu bar icon and Chinese settings window appeared; this is user-reported startup evidence |
+| Native smoke and full UI acceptance | **Blocked / pending** | Automated launch stopped at system application registration; computer-use access remains unavailable. Actual zone interactions and native controls have not been verified |
 | Actual hotkey and hover events | **Pending** | Source compiled; real events were not tested |
 | Physical multi-display changes and sleep/wake | **Pending** | Width calculations have core tests; actual hardware transitions do not |
 | Login item registration | **Not run** | Disabled by default; requires an explicit user choice |
 | Independent code review | **Blocked / pending** | Reviewer tooling could not initialize; no review verdict was produced |
 
-The launch failure does not prove that the menu bar logic works or fails, and does not establish that manual launch will succeed elsewhere. The repository illustration is a concept, not runtime evidence. Local logs and machine-specific review receipts are excluded from the public repository.
+The earlier automated launch failure does not prove that the menu bar logic works or fails. A subsequent manual launch was reported successful by the project owner; that establishes startup evidence for that session, not full interaction or cross-device acceptance. The repository illustration is a concept, not runtime evidence. Local logs and machine-specific review receipts are excluded from the public repository.
 
 ## How folding works
 

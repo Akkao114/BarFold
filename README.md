@@ -19,7 +19,7 @@
 
 *Concept illustration, not an app screenshot.*
 
-> **Early preview:** the app builds locally and 123 core checks pass. Live menu bar interactions, native UI acceptance, and independent code review are still pending. The current settings UI is in Simplified Chinese. See the [validation record](docs/VALIDATION.md) before trying it.
+> **Early preview:** the app builds locally, 123 core checks pass, and the project owner reports a successful manual launch. Menu bar interaction testing, native UI acceptance, and independent code review are still pending. The current settings UI is in Simplified Chinese. See the [validation record](docs/VALIDATION.md) before trying it.
 
 ## Less clutter. Still your Mac.
 
@@ -85,7 +85,6 @@ Click BarFold to toggle the on-demand icons. **⌥ Option-click** reveals everyt
 - Icons expand in the original menu bar. **There is no second bar**, so a display notch or long application menus can still obscure icons.
 - Some system or app-owned icons may not support Command-drag. Newly launched items may need rearranging.
 - A macOS 14 deployment target is a build requirement, not proof of compatibility on every macOS release. Physical multi-display changes, sleep/wake, and login launch are unverified.
-- The native launch attempt stopped during system application registration in the build environment. That does not establish whether manual launch will succeed elsewhere.
 
 The app uses status-item widths to fold icons beyond the visible menu bar. Hover installs mouse-movement monitoring only when enabled; auto-collapse inspects pointer/button state and window metadata, not window titles or pixels. [Implementation and validation details →](docs/VALIDATION.md)
 
